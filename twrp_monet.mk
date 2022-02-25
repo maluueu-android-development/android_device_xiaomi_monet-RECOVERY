@@ -21,13 +21,13 @@ DEVICE_PATH := device/xiaomi/monet
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := monet
-PRODUCT_NAME := omni_monet
+PRODUCT_NAME := twrp_monet
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Xiaomi Mi 10 Lite 5G
+PRODUCT_MODEL := Mi 10 Lite 5G
 PRODUCT_MANUFACTURER := Xiaomi
 
 
